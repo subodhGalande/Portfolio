@@ -4,21 +4,21 @@ const Hero = () => {
   return (
     <div>
       <section class="container mx-auto px-4 sm:px-8 lg:px-12 mt-32 max-w-6xl ">
-        <img class="h-16 w-16" src="/public/photo.png" alt="Photo" />
+        <img class=" h-16 w-16 -mt-16" src="/public/photo.png" alt="Photo" />
 
-        <h1 class="text-4xl font-bold tracking-tight text-zinc-100 sm:text-5xl">
+        <h1 class="text-4xl mt-6 font-bold tracking-tight text-zinc-100 sm:text-5xl">
           {" "}
           Front-end developer, mobile developer <br />
           and amateur graphic designer.
         </h1>
-        <p class="mt-6 text-base text-zinc-400">
+        <p class="mt-8 text-base text-zinc-400">
           I’m Subodh, a software developer and graphic designer based in Indore,
           India. <br />
-          In a nutshell, that means that i sit at my shine computer all day long
-          developing snazzy designs for cool folks.
+          In a nutshell, that means that I sit at my shiny computer all day long
+          <br /> developing snazzy designs for cool folks.
         </p>
 
-        <div class="mt-6 flex gap-6">
+        <div class="mt-8 flex gap-6">
           <a
             class="group -m-1 p-1"
             aria-label="Follow on Twitter"
