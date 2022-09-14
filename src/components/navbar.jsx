@@ -3,16 +3,16 @@ import App from "./../App";
 
 const Navbar = () => {
   return (
-    <nav class="mt-5">
+    <nav class="mt-5 max-w-6x7 ">
       <div>
-        <ul class="container mx-auto flex justify-around w-4/5 sm:w-6/12 lg:w-2/5 shadow-md text-base sm:text-lg  py-1 rounded-full bg-zinc-800 ">
-          <li class=" inline-block transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-Work font-normal   text-gray-50 ">
+        <ul class="flex mx-auto max-w-fit px-7 justify-center space-x-6  shadow-md text-base sm:text-lg  rounded-full bg-zinc-800 ">
+          <li class=" relative block  py-2 transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-Work font-normal text-sm text-zinc-300 ">
             <a href="#">About</a>
           </li>
-          <li class=" inline-block transition active:text-cyan-200 hover:text-cyan-400 ease-in-out duration-300 font-Work font-normal   text-gray-50">
+          <li class=" relative block py-2 transition active:text-cyan-200 hover:text-cyan-400 ease-in-out duration-300 font-Work font-normal text-sm  text-zinc-300">
             <a href="#">Projects</a>
           </li>
-          <li class="inline-block transition active:text-cyan-200 ease-in-out duration-300 hover:text-cyan-400  font-Work font-normal   text-gray-50">
+          <li class=" rlative block transition  py-2  ease-in-out duration-300 hover:text-cyan-400  font-Work font-normal  text-sm text-zinc-300">
             {" "}
             <a href="#">Blog</a>
           </li>
