@@ -1,10 +1,11 @@
 import React, { Component } from "react";
+import photo from "../assets/photo.png";
 
 const Hero = () => {
   return (
     <div>
       <section class="container mx-auto px-4 sm:px-8 lg:px-12 mt-32 max-w-6xl ">
-        <img class=" h-16 w-16 -mt-16" src="/public/photo.png" alt="Photo" />
+        <img class=" h-16 w-16 -mt-16" src={photo} alt="Photo" />
 
         <h1 class="text-4xl mt-6 font-bold tracking-tight text-zinc-100 sm:text-5xl">
           {" "}
