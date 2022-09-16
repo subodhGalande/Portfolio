@@ -7,6 +7,7 @@ module.exports = {
     extend: {
       fontFamily: {
         Work: ['"Work Sans"', ...defaultTheme.fontFamily.sans],
+        logo: ['"Press Start 2P"'],
       },
     },
   },
