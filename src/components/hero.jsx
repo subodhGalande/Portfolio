@@ -13,7 +13,7 @@ const Hero = () => {
           <h1 class="lg:text-7xl md:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-3xl ">
             Subodh Galande
           </h1>
-          <p class="lg:mt-10 md:mt-7 mt-6 text-sm mx-auto md:mx-0 font-Pop  max-w-3xl md:w-3/4 text-zinc-400 ">
+          <p class="lg:mt-10 md:mt-7 mt-6 text-sm mx-auto md:mx-0 font-pop  max-w-3xl md:w-3/4 text-zinc-400 ">
             I'm a software engineer, front-end developer, mobile app developer
             and a graphic designer based in Indore, India. I like to design and
             build beautifully simple things.

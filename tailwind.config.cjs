@@ -6,7 +6,7 @@ module.exports = {
   theme: {
     extend: {
       fontFamily: {
-        Pop: ['"Poppins"'],
+        pop: ['"Poppins"'],
         logo: ['"Press Start 2P"'],
       },
     },
