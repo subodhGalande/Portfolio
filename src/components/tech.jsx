@@ -29,14 +29,14 @@ const Tech = () => {
     <>
       <section class="container mx-auto h-full text-center lg:h-screen mt-32 lg:mt-0 w-11/12 lg:w-5/6">
         <div>
-          <h1 class=" mt-10   mx-auto lg:text-7xl md:text-5xl text-4xl tracking-normal font-pop font-bold text-white max-w-3xl">
+          <p class=" mt-10   mx-auto lg:text-7xl md:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
             Technologies & Tools
-          </h1>
+          </p>
 
-          <div class="grid mt-20 grid-rows-2 md:grid-cols-2  gap-6 space-y-4 justify-center ">
-            <div class="px-7 ring-1 ring-zinc-500/40 md:w-fit  shadow-md  rounded-lg bg-zinc-800">
+          <div class="grid mx-auto mt-20 grid-rows-2 md:grid-cols-2 max-w-5xl justify-items-center sm:space-y-0 space-y-8 ">
+            <div class="px-7 ring-1 ring-zinc-500/40 sm:w-5/6  shadow-md  rounded-lg bg-zinc-800">
               <div class=" w-full pb-4 border-b-[1px] border-zinc-500/40">
-                <h1 class="font-pop mt-10 mx-2 text-2xl text-cyan-400 font-medium">
+                <h1 class="font-pop mt-10 text-2xl text-cyan-400 font-medium">
                   Tech Stack
                 </h1>
                 <p class="text-base mt-5 font-pop text-zinc-300 ">
@@ -89,9 +89,9 @@ const Tech = () => {
                 </li>
               </ul>
             </div>
-            <div class="px-7 ring-1 ring-zinc-500/40  shadow-md  rounded-lg bg-zinc-800">
-              <div class=" w-full pb-4 border-b-[1px] border-zinc-500/40">
-                <h1 class="font-pop mt-10 mx-2 text-2xl text-cyan-400 font-medium">
+            <div class="px-7 ring-1 ring-zinc-500/40 sm:w-5/6  shadow-md  rounded-lg bg-zinc-800">
+              <div class=" pb-4 border-b-[1px] border-zinc-500/40">
+                <h1 class="font-pop mt-10 text-2xl text-cyan-400 font-medium">
                   Tools
                 </h1>
                 <p class="text-base mt-5 font-pop text-zinc-300 ">
