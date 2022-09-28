@@ -27,13 +27,13 @@ import {
 const Tech = () => {
   return (
     <>
-      <section class="container mx-auto h-full text-center lg:h-screen mt-32 lg:mt-0 w-11/12 lg:w-5/6">
-        <div>
-          <p class=" mt-10   mx-auto lg:text-7xl md:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
+      <section class=" mx-auto text-center h-full mt-32 lg:mt-0 w-11/12 lg:w-5/6">
+        <div className="h-fit">
+          <p class=" mx-auto lg:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
             Technologies & Tools
           </p>
 
-          <div class="grid mx-auto mt-20 grid-rows-2 md:grid-cols-2 max-w-5xl justify-items-center sm:space-y-0 space-y-8 ">
+          <div class="grid mx-auto mt-12  md:grid-cols-2 max-w-5xl justify-items-center sm:space-y-0 space-y-8 ">
             <div class="px-7 ring-1 ring-zinc-500/40 sm:w-5/6  shadow-md  rounded-lg bg-zinc-800">
               <div class=" w-full pb-4 border-b-[1px] border-zinc-500/40">
                 <h1 class="font-pop mt-10 text-2xl text-cyan-400 font-medium">
