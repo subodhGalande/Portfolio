@@ -61,13 +61,21 @@ const Navbar = () => {
                 <ul class=" mt-4 divide-y divide-zinc-100 font-sans text-base font-normal text-zinc-300 divide-zinc-100/5 ">
                   <li>
                     {" "}
-                    <Popover.Button class="pt-3 pb-2">About</Popover.Button>
+                    <NavLink to="/About">
+                      <Popover.Button class="pt-3 pb-2">About</Popover.Button>
+                    </NavLink>
                   </li>
                   <li>
-                    <Popover.Button class="pt-3 pb-2">Projects</Popover.Button>
+                    <NavLink to="/Projects">
+                      <Popover.Button class="pt-3 pb-2">
+                        Projects
+                      </Popover.Button>{" "}
+                    </NavLink>
                   </li>
                   <li>
-                    <Popover.Button class="pt-3 pb-2">Blog</Popover.Button>
+                    <NavLink to="/Blog">
+                      <Popover.Button class="pt-3 pb-2">Blog</Popover.Button>{" "}
+                    </NavLink>
                   </li>
                 </ul>
               </div>
