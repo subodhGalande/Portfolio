@@ -2,7 +2,7 @@ import React from "react";
 import one from "../assets/onedesk1.png";
 import sbmo from "../assets/sbmo.png";
 import stox from "../assets/stoxticker.png";
-import { FiGithub } from "react-icons/fi";
+import { FiGithub, FiExternalLink } from "react-icons/fi";
 
 const Projects = () => {
   return (
@@ -18,9 +18,9 @@ const Projects = () => {
               background: `url(${one})`,
               backgroundRepeat: "no-repeat",
             }}
-            className=" sm:col-span-2 lg:col-span-1 bg-cover h-fit  w-fit rounded-xl overflow-hidden  "
+            className=" sm:col-span-2 lg:col-span-1 bg-cover h-full  w-fit rounded-xl overflow-hidden  "
           >
-            <div className=" backdrop-brightness-[.08] opacity-100 py-1 px-6 ">
+            <div className=" w-full h-full backdrop-brightness-[.08]  py-1 px-4 ">
               <div className="mt-10">
                 <small className="text-cyan-400 text-sm font-mono">
                   Featured Project
@@ -37,15 +37,20 @@ const Projects = () => {
                 dolores aperiam dolore incidunt rem tenetur quam numquam quasi
                 nobis nam sint quo?{" "}
               </h2>
-              <div className="w-full">
-                <ul className="mt-14 text-sm text-white font-mono flex flex-wrap space-x-4 ">
-                  <li className=" shrink-0">Bulma CSS</li>
-                  <li>Javascript</li>
-                  <li>PHP</li>
-                  <li>MySQL</li>
+              <div className="w-full inline-block">
+                <ul className="mt-14 text-sm text-white font-mono  ">
+                  <li className="float-left pr-4">Bulma CSS</li>
+                  <li className="float-left pr-4">Javascript</li>
+                  <li className="float-left pr-4">PHP</li>
+                  <li className="float-left pr-4">MySQL</li>
                 </ul>
               </div>
-              <FiGithub class="text-white h-5 w-5 mt-6 mb-10 " />
+              <a
+                href="https://github.com/subodhGalande/OneDesk"
+                target="_blank"
+              >
+                <FiGithub class="text-white h-5 w-5 mt-6 mb-10 " />
+              </a>
             </div>
           </div>
           <div
@@ -53,9 +58,9 @@ const Projects = () => {
               background: `url(${stox})`,
               backgroundRepeat: "no-repeat",
             }}
-            className=" sm:col-span-2 lg:col-span-1  h-max bg-cover bg-top w-full rounded-xl overflow-hidden  "
+            className=" sm:col-span-2 lg:col-span-1  h-full bg-cover bg-top w-full rounded-xl overflow-hidden  "
           >
-            <div className=" backdrop-brightness-[.08] opacity-100 py-1 px-6 ">
+            <div className=" backdrop-brightness-[.08] opacity-100 w-full h-full py-1 px-4 ">
               <div className="mt-10">
                 <small className="text-cyan-400 text-sm font-mono">
                   Featured Project
@@ -72,14 +77,19 @@ const Projects = () => {
                 dolores aperiam dolore incidunt rem tenetur quam numquam quasi
                 nobis nam sint quo?{" "}
               </h2>
-              <div className="w-full">
-                <ul className="mt-14 text-sm text-white font-mono flex flex-wrap space-x-4 ">
-                  <li>React</li>
-                  <li>Ionic Framework</li>
-                  <li>Styled Components</li>
+              <div className="w-full inline-block">
+                <ul className="mt-14 text-sm text-white font-mono ">
+                  <li className="float-left pr-4 ">React</li>
+                  <li className="float-left pr-4 ">Ionic Framework</li>
+                  <li className="float-left pr-4 ">Styled Components</li>
                 </ul>
               </div>
-              <FiGithub class="text-white h-5 w-5 mt-6 mb-10 " />
+              <a
+                href="https://github.com/subodhGalande/stoxticker"
+                target="_blank"
+              >
+                <FiGithub class="text-white h-5 w-5 mt-6 mb-10  " />
+              </a>
             </div>
           </div>
           <div
@@ -87,9 +97,9 @@ const Projects = () => {
               background: `url(${sbmo})`,
               backgroundRepeat: "no-repeat",
             }}
-            className=" sm:col-span-2 lg:col-span-1 sm:col-start-2 h-max bg-cover w-full rounded-xl overflow-hidden "
+            className=" sm:col-span-2 lg:col-span-1 sm:col-start-2 h-full bg-cover w-full rounded-xl overflow-hidden "
           >
-            <div className=" backdrop-brightness-[.08] opacity-100 py-1 px-6 ">
+            <div className=" backdrop-brightness-[.08] w-full h-full py-1 px-4 ">
               <div className="mt-10">
                 <small className="text-cyan-400 text-sm font-mono">
                   Featured Project
@@ -106,14 +116,29 @@ const Projects = () => {
                 dolores aperiam dolore incidunt rem tenetur quam numquam quasi
                 nobis nam sint quo?{" "}
               </h2>
-              <div className="w-full">
-                <ul className="mt-14 text-sm text-white font-mono flex flex-wrap space-x-4 ">
-                  <li>React</li>
-                  <li>Tailwind CSS</li>
-                  <li>Vite</li>
+              <div className="w-full inline-block">
+                <ul className="mt-14 text-sm text-white font-mono   ">
+                  <li className="float-left pr-4">React</li>
+                  <li className="float-left pr-4">Tailwind CSS</li>
+                  <li className="float-left pr-4">Vite</li>
                 </ul>
               </div>
-              <FiGithub class="text-white h-5 w-5 mt-6 mb-10 " />
+              <ul className=" items-baseline mt-6 mb-10">
+                <li className="float-left pr-4">
+                  <a
+                    href="https://github.com/subodhGalande/sbmoverseas"
+                    target="_blank"
+                  >
+                    <FiGithub class="text-white h-5 w-5   " />{" "}
+                  </a>
+                </li>
+                <li className="float-left pr-4">
+                  <a href="https://www.sbmoverseas.com" target="_blank">
+                    {" "}
+                    <FiExternalLink class="text-white h-5 w-5  " />
+                  </a>{" "}
+                </li>
+              </ul>
             </div>
           </div>
         </div>
