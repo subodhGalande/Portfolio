@@ -27,7 +27,7 @@ import {
 const Tech = () => {
   return (
     <>
-      <section class=" mx-auto text-center h-full mt-32 lg:mt-0 w-11/12 lg:w-5/6">
+      <section class=" mx-auto text-center h-full mt-32 lg:mt-20 w-11/12 lg:w-5/6">
         <div className="h-fit">
           <p class=" mx-auto lg:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
             Technologies & Tools

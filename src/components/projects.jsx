@@ -12,7 +12,7 @@ const Projects = () => {
         <p class=" text-center mx-auto lg:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
           Things I've Built
         </p>{" "}
-        <div className=" mt-20 grid sm:grid-cols-4 lg:grid-cols-3 gap-6  ">
+        <div className=" mt-20 grid sm:grid-cols-4 lg:grid-cols-3 gap-6 ">
           <div
             style={{
               background: `url(${one})`,
@@ -123,22 +123,24 @@ const Projects = () => {
                   <li className="float-left pr-4">Vite</li>
                 </ul>
               </div>
-              <ul className=" items-baseline mt-6 mb-10">
-                <li className="float-left pr-4">
-                  <a
-                    href="https://github.com/subodhGalande/sbmoverseas"
-                    target="_blank"
-                  >
-                    <FiGithub class="text-white h-5 w-5   " />{" "}
-                  </a>
-                </li>
-                <li className="float-left pr-4">
-                  <a href="https://www.sbmoverseas.com" target="_blank">
-                    {" "}
-                    <FiExternalLink class="text-white h-5 w-5  " />
-                  </a>{" "}
-                </li>
-              </ul>
+              <div className=" items-baseline mt-6 mb-10">
+                <ul className=" items-baseline ">
+                  <li className="float-left pr-4">
+                    <a
+                      href="https://github.com/subodhGalande/sbmoverseas"
+                      target="_blank"
+                    >
+                      <FiGithub class="text-white h-5 w-5   " />{" "}
+                    </a>
+                  </li>
+                  <li className="float-left pr-4 mb-10">
+                    <a href="https://www.sbmoverseas.com" target="_blank">
+                      {" "}
+                      <FiExternalLink class="text-white h-5 w-5  " />
+                    </a>{" "}
+                  </li>
+                </ul>
+              </div>
             </div>
           </div>
         </div>
