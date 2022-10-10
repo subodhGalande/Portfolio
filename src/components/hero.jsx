@@ -5,7 +5,10 @@ import photo from "../assets/photo.png";
 const Hero = () => {
   return (
     <>
-      <div class="container md:flex-row flex flex-col-reverse text-center md:text-left mx-auto items-center justify-center md:justify-center h-full py-8 mt-14 max-w-7xl px-4 sm:px-8 lg:px-12 ">
+      <div
+        id="home"
+        class="container md:flex-row flex flex-col-reverse text-center md:text-left mx-auto items-center justify-center md:justify-center h-full py-8 mt-14 max-w-7xl px-4 sm:px-8 lg:px-12 "
+      >
         <div class=" mt-10 lg:mt-0 ">
           <p class="lg:text-sm text-xs mb-1 md:mb-3 lg:mb-3 font-pop tracking-widest text-cyan-400">
             Hello, My name is

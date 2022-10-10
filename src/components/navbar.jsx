@@ -6,7 +6,10 @@ import { NavLink } from "react-router-dom";
 
 const Navbar = () => {
   return (
-    <nav class=" px-4 sm:px-8 lg:px-12 pt-2 top-0 mt-8 mx-auto max-w-7xl">
+    <nav
+      id="home"
+      class=" px-4 sm:px-8 lg:px-12 pt-2 top-0 mt-8 mx-auto max-w-7xl"
+    >
       <div class=" flex mx-auto items-baseline justify-between  w-full  ">
         <NavLink to="/">
           <h1 class="font-logo text-xs md:text-sm lg:text-base font-medium rounded-full text-white ">
@@ -61,18 +64,23 @@ const Navbar = () => {
                 <ul class=" mt-4 divide-y divide-zinc-100 font-sans text-base font-normal text-zinc-300 divide-zinc-100/5 ">
                   <li>
                     {" "}
-                    <NavLink to="/About">
-                      <Popover.Button class="pt-3 pb-2">About</Popover.Button>
-                    </NavLink>
+                    <a href="#work">
+                      <Popover.Button class="pt-3 pb-2">Work</Popover.Button>
+                    </a>
                   </li>
                   <li>
-                    <NavLink to="/Projects">
+                    <a href="#projects">
                       <Popover.Button class="pt-3 pb-2">
                         Projects
                       </Popover.Button>{" "}
-                    </NavLink>
+                    </a>
                   </li>
                   <li>
+                    <a href="#connect">
+                      <Popover.Button class="pt-3 pb-2">Connect</Popover.Button>{" "}
+                    </a>
+                  </li>
+                  <li className="hidden">
                     <NavLink to="/Blog">
                       <Popover.Button class="pt-3 pb-2">Blog</Popover.Button>{" "}
                     </NavLink>
@@ -85,12 +93,15 @@ const Navbar = () => {
         </Popover>
         <ul class="  px-7 hidden sm:flex  ring-1 ring-zinc-500/40 space-x-6  shadow-md text-base  rounded-full bg-zinc-800 ">
           <li class=" block  py-2 transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-sans font-normal text-sm text-zinc-300 ">
-            <NavLink to="/About">About</NavLink>
+            <a href="#work">Work</a>
           </li>
           <li class=" block py-2 transition active:text-cyan-200 hover:text-cyan-400 ease-in-out duration-300 font-sans font-normal text-sm  text-zinc-300">
-            <NavLink to="/Projects">Projects</NavLink>
+            <a href="#projects">Projects</a>
           </li>
-          <li class=" block transition  py-2  ease-in-out duration-300 hover:text-cyan-400  font-sans font-normal  text-sm text-zinc-300">
+          <li class=" block  py-2 transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-sans font-normal text-sm text-zinc-300 ">
+            <a href="#connect">Connect</a>
+          </li>
+          <li class=" hidden  transition  py-2  ease-in-out duration-300 hover:text-cyan-400  font-sans font-normal  text-sm text-zinc-300">
             {" "}
             <NavLink to="/blog">Blog</NavLink>
           </li>

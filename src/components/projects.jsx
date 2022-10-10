@@ -7,7 +7,10 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 const Projects = () => {
   return (
     <>
-      <section className="container mx-auto mt-32 px-4 md:px-8 lg:px-12">
+      <section
+        id="projects"
+        className="pt-20 mt-20 lg:mt-32 h-full container mx-auto  px-4 md:px-8 lg:px-12"
+      >
         {" "}
         <p class=" text-center mx-auto lg:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
           Things I've Built
