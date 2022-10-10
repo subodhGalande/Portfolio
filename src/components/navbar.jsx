@@ -3,6 +3,7 @@ import App from "./../App";
 import { Popover, Transition } from "@headlessui/react";
 import { ChevronDownIcon, XMarkIcon } from "@heroicons/react/20/solid";
 import { NavLink } from "react-router-dom";
+import Resume from "../assets/Subodh Galande.pdf";
 
 const Navbar = () => {
   return (
@@ -80,6 +81,12 @@ const Navbar = () => {
                       <Popover.Button class="pt-3 pb-2">Connect</Popover.Button>{" "}
                     </a>
                   </li>
+                  <li>
+                    {" "}
+                    <a href={Resume} download>
+                      <Popover.Button class="pt-3 pb-2">Resume</Popover.Button>{" "}
+                    </a>
+                  </li>
                   <li className="hidden">
                     <NavLink to="/Blog">
                       <Popover.Button class="pt-3 pb-2">Blog</Popover.Button>{" "}
@@ -100,6 +107,11 @@ const Navbar = () => {
           </li>
           <li class=" block  py-2 transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-sans font-normal text-sm text-zinc-300 ">
             <a href="#connect">Connect</a>
+          </li>
+          <li class=" block  py-2 transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-sans font-normal text-sm text-zinc-300 ">
+            <a href={Resume} download>
+              Resume
+            </a>
           </li>
           <li class=" hidden  transition  py-2  ease-in-out duration-300 hover:text-cyan-400  font-sans font-normal  text-sm text-zinc-300">
             {" "}
