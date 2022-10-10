@@ -7,12 +7,12 @@ import { FiGithub, FiExternalLink } from "react-icons/fi";
 const Projects = () => {
   return (
     <>
-      <section className="container mx-auto mt-28 px-4 md:px-8 lg:px-12">
+      <section className="container mx-auto mt-32 px-4 md:px-8 lg:px-12">
         {" "}
         <p class=" text-center mx-auto lg:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
           Things I've Built
         </p>{" "}
-        <div className=" mt-20 grid sm:grid-cols-4 lg:grid-cols-3 gap-6 ">
+        <div className=" mt-16 grid sm:grid-cols-4 lg:grid-cols-3 gap-6 ">
           <div
             style={{
               background: `url(${one})`,

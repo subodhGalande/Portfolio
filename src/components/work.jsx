@@ -3,7 +3,7 @@ import React from "react";
 const Work = () => {
   return (
     <>
-      <div className=" mx-auto text-center h-full mt-20 lg:mt-32 w-11/12 lg:w-5/6 z-10 px-4 md:px-8 lg:px-12">
+      <div className=" mx-auto text-center h-full mt-20 lg:mt-32 w-11/12 max-w-7xl lg:w-5/6 z-10 px-4 md:px-8 lg:px-12">
         <h1 class=" mx-auto lg:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-4xl">
           Where I've worked
         </h1>

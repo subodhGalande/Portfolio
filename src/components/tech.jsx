@@ -45,7 +45,7 @@ const Tech = () => {
                 </p>
               </div>
 
-              <ul class="mt-8 mb-8 text-center text-base font-medium font-pop text-white space-y-2  align-center  divide-zinc-100/5">
+              <ul class="mt-8 mb-8 text-center text-base font-medium font-pop text-white space-y-2  align-center ">
                 <li class=" pt-3 pb-2 ">
                   {" "}
                   <DiHtml5 class="text-cyan-400 inline-block mx-1 h-6 w-6  " />{" "}
