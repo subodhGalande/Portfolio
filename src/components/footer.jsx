@@ -5,13 +5,13 @@ const Footer = () => {
     <>
       <footer className="mt-32 border-t-[1px] p-4 border-zinc-500/40">
         <ul className=" p-1 mx-auto w-max flex ">
-          <li className=" inline-block text-sm font-bold text-zinc-400 text-center">
+          <li className=" inline-block text-base hover:text-blue-400 font-medium text-zinc-400 text-center">
             <a href="#home">Home</a>
           </li>
-          <li className=" inline-block text-sm px-6 font-bold text-zinc-400 text-center">
+          <li className=" inline-block text-base px-6  hover:text-blue-400 font-medium text-zinc-400 text-center">
             <a href="#work">Work</a>
           </li>
-          <li className=" inline-block text-sm font-bold text-zinc-400 text-center">
+          <li className=" inline-block text-base font-medium  hover:text-blue-400 text-zinc-400 text-center">
             <a href="#projects">Projects</a>
           </li>
         </ul>

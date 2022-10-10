@@ -35,12 +35,13 @@ const Projects = () => {
 
               <h2 className="text-zinc-400 text-base mt-10 ">
                 {" "}
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dignissimos, laborum veniam earum unde rerum dolor sunt magnam
-                dolores aperiam dolore incidunt rem tenetur quam numquam quasi
-                nobis nam sint quo?{" "}
+                Developed a help desk based on chat functionality for the
+                college student and faculties. Due to the covid 19 pandemic,
+                students were not able to communicate with the authorities and
+                this project helps them to resolve their queries by directly
+                connecting with the authorities of their respective departments.
               </h2>
-              <div className="w-full inline-block">
+              <div className="w-full inline-block md:mt-10 lg:mt-6">
                 <ul className="mt-14 text-sm text-white font-mono  ">
                   <li className="float-left pr-4">Bulma CSS</li>
                   <li className="float-left pr-4">Javascript</li>
@@ -75,13 +76,15 @@ const Projects = () => {
 
               <h2 className="text-zinc-400 text-base mt-10 ">
                 {" "}
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dignissimos, laborum veniam earum unde rerum dolor sunt magnam
-                dolores aperiam dolore incidunt rem tenetur quam numquam quasi
-                nobis nam sint quo?{" "}
+                Developed a cross-platform Stock market app, which efficiently
+                displays real-time stocks data and Financial news by consuming
+                data from multiple APIs and the user can save his/her favourite
+                stock/ticker. This app helps user to analyse the key metrics and
+                all the data which is related and helpful to gain a good insight
+                about that particular stock.
               </h2>
               <div className="w-full inline-block">
-                <ul className="mt-14 text-sm text-white font-mono ">
+                <ul className="mt-14  text-sm text-white font-mono ">
                   <li className="float-left pr-4 ">React</li>
                   <li className="float-left pr-4 ">Ionic Framework</li>
                   <li className="float-left pr-4 ">Styled Components</li>
@@ -114,12 +117,13 @@ const Projects = () => {
 
               <h2 className="text-zinc-400 text-base mt-10 ">
                 {" "}
-                Lorem ipsum dolor sit amet, consectetur adipisicing elit.
-                Dignissimos, laborum veniam earum unde rerum dolor sunt magnam
-                dolores aperiam dolore incidunt rem tenetur quam numquam quasi
-                nobis nam sint quo?{" "}
+                A freelance project accomplished for a turmeric exporting
+                company. Developed a website for them to showcase their products
+                to the buyers so that the buyers can take a look at the
+                specifications of the products and can directly communicate with
+                the company by just filling up a contact us form.
               </h2>
-              <div className="w-full inline-block">
+              <div className="w-full inline-block mt-6">
                 <ul className="mt-14 text-sm text-white font-mono   ">
                   <li className="float-left pr-4">React</li>
                   <li className="float-left pr-4">Tailwind CSS</li>

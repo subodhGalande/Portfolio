@@ -22,7 +22,7 @@ const Work = () => {
               <p class="text-base lg:text-lg mt-2 ml-4 text-left font-mono text-slate-300">
                 October - October 2019
               </p>
-              <ul class="text-base lg:text-lg ml-8 mt-6 text-left space-y-3 list-disc list-item text-slate-400">
+              <ul class="text-sm lg:text-lg ml-8 mt-6 text-left space-y-3 list-disc list-item text-slate-400">
                 <li>
                   {" "}
                   Learned Java fundamentals under "Amstech Academic Development
@@ -42,7 +42,7 @@ const Work = () => {
               <p class="text-base lg:text-lg mt-2 ml-4 text-left font-mono text-slate-300">
                 May - August 2018
               </p>
-              <ul class="text-base  lg:text-lg ml-8 mt-6 text-left space-y-3 list-disc list-item text-slate-400">
+              <ul class="text-sm  lg:text-lg ml-8 mt-6 text-left space-y-3 list-disc list-item text-slate-400">
                 <li>
                   {" "}
                   Worked with Product Development Team as a Graphic Designer and
