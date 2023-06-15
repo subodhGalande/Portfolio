@@ -22,6 +22,7 @@ import {
   SiAdobeindesign,
   SiAdobephotoshop,
   SiAdobexd,
+  SiSap,
 } from "react-icons/si";
 
 const Tech = () => {
@@ -86,6 +87,10 @@ const Tech = () => {
                 <li class=" pt-3 pb-2 ">
                   <DiGit class="text-cyan-400 inline-block mx-1 h-7 w-7 " />
                   <p class="inline-block">Git</p>
+                </li>
+                <li class=" pt-3 pb-2 ">
+                  <SiSap class="text-cyan-400 inline-block mx-2 h-7 w-7 " />
+                  <p class="inline-block">SAP ABAP & Build</p>
                 </li>
               </ul>
             </div>

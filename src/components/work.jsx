@@ -16,6 +16,20 @@ const Work = () => {
             <li class="mb-10 ml-4">
               <div class="absolute w-4 h-4 bg-cyan-400 rounded-full mt-1.5 -left-2 "></div>
               <h2 className=" text-xl lg:text-2xl ml-4 text-left font-bold text-slate-300 ">
+                Software Engineer
+                <span class="text-cyan-400"> @ Capgemini</span>
+              </h2>
+              <p class="text-base lg:text-lg mt-2 ml-4 text-left font-mono text-slate-300">
+                December 2022 - Currently Working
+              </p>
+              <ul class="text-sm lg:text-lg ml-8 mt-6 text-left space-y-3 list-disc list-item text-slate-400">
+                <li> Working as a SAP ABAP and SAP Build Developer.</li>
+                <li>Got hands-on experience of working on Build process.</li>
+              </ul>
+            </li>
+            <li class="mb-10 ml-4">
+              <div class="absolute w-4 h-4 bg-cyan-400 rounded-full mt-1.5 -left-2 "></div>
+              <h2 className=" text-xl lg:text-2xl ml-4 text-left font-bold text-slate-300 ">
                 Java Trainee Intern
                 <span class="text-cyan-400"> @ Amstech Inc.</span>
               </h2>

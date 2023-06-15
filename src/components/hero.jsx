@@ -16,10 +16,21 @@ const Hero = () => {
           <h1 class="lg:text-7xl md:text-5xl text-4xl tracking-normal font-pop font-bold text-zinc-100 max-w-3xl ">
             Subodh Galande
           </h1>
-          <p class="lg:mt-10 md:mt-7 mt-6 text-sm lg:text-lg mx-auto md:mx-0 font-pop  max-w-3xl md:w-3/4 text-zinc-400 ">
-            I'm a software engineer, front-end developer, mobile app developer
-            and a graphic designer based in Indore, India. I like to design and
-            build beautifully simple things.
+          <p class="lg:mt-10 md:mt-7 mt-6 text-sm lg:text-lg mx-auto md:mx-0 font-pop  max-w-4xl md:w-3/4 text-zinc-400 ">
+            I'm a{" "}
+            <span className="font-semibold text-neutral-300">
+              Software Engineer
+            </span>{" "}
+            and{" "}
+            <span className="font-semibold text-neutral-300">
+              Front-end/Mobile Developer
+            </span>{" "}
+            with a knack of{" "}
+            <span className="font-semibold text-neutral-300">
+              Graphic/UI Design
+            </span>{" "}
+            based in Indore, India. I like to design and build
+            beautifully-complex things.
           </p>
           <div class="lg:mt-20 md:mt-12 mt-8 flex md:justify-start justify-center gap-6">
             <a
