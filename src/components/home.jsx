@@ -5,6 +5,7 @@ import Hero from "./hero";
 import Projects from "./projects";
 import Tech from "./tech";
 import Work from "./work";
+
 const Home = () => {
   return (
     <>
