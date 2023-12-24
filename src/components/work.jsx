@@ -22,6 +22,26 @@ const Work = () => {
               <p class="text-base lg:text-lg mt-2 ml-4 text-left font-mono text-slate-300">
                 December 2022 - Currently Working
               </p>
+              <ul class="text-sm lg:text-lg ml-8 mt-6 text-left space-y-3 list-disc list-item text-slate-400">
+                <li>
+                  {" "}
+                  Writing clean, maintainable, and efficient code in JavaScript
+                  and React.
+                </li>
+                <li>
+                  Collaborating with other team members, such as designers and
+                  backend developers, to implement features.
+                </li>
+                <li>Debugging and fixing issues in the codebase</li>
+                and integrating with RESTful APIs or other data sources.
+                <li>
+                  Using version control systems like Git for code management.
+                </li>
+                <li>
+                  Participating in code reviews to maintain code quality and
+                  adhering to company coding standards and practices.
+                </li>
+              </ul>
             </li>
             <li class="mb-10 ml-4">
               <div class="absolute w-4 h-4 bg-cyan-400 rounded-full mt-1.5 -left-2 "></div>
