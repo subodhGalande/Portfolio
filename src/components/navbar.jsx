@@ -117,7 +117,7 @@ const Navbar = () => {
               <a href="#connect">Connect</a>
             </li>
             <li class=" block  py-2 transition ease-in-out duration-300 active:text-cyan-200 hover:text-cyan-400 font-sans font-normal text-sm text-zinc-300 ">
-              <a href={Resume} download>
+              <a href={Resume} download="Subodh Galande">
                 Resume
               </a>
             </li>
